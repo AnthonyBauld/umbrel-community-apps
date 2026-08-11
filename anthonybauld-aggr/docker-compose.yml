@@ -4,14 +4,14 @@ services:
   app_proxy:
     image: getumbrel/app-proxy:v1.0.0
     restart: on-failure
+    ports:
+      - "8080:80"
     environment:
-      APP_HOST: anthonybauld-rotki_anthonybauld-rotki_1
-      APP_PORT: 8080
+      APP_HOST: web
+      APP_PORT: 80
 
-  anthonybauld-rotki:
-    image: rotki/rotki:v1.36.0
+  web:
+    image: tucsky/aggr-server:latest
     restart: on-failure
-    volumes:
-      - ${APP_DATA_DIR}/data:/root/.rotki
     environment:
-      - ROTKI_DATA_DIR=/root/.rotki
+      - PORT=80
