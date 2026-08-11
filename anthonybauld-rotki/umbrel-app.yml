@@ -1,0 +1,19 @@
+manifestVersion: 1
+id: "anthonybauld-rotki"
+name: "Rotki"
+tagline: "Privacy-focused portfolio tracking and accounting"
+icon: "https://raw.githubusercontent.com/rotki/rotki/develop/assets/rotki_icon.png"
+category: "finance"
+version: "1.36.0"
+port: 8080
+description: "Rotki is an open-source portfolio tracking, analytics, accounting, and management application that protects your financial data and privacy."
+developer: "Rotki Solutions GmbH"
+website: "https://rotki.com"
+repo: "https://github.com/rotki/rotki"
+support: "https://github.com/rotki/rotki/issues"
+gallery: []
+path: ""
+defaultPassword: ""
+deterministicPassword: false
+submitter: "AnthonyBauld"
+submissionDate: "2026-08-11"
