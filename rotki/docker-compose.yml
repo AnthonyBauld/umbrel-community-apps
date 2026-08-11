@@ -3,10 +3,10 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: rotki_app_1
+      APP_HOST: rotki_rotki_1
       APP_PORT: 8080
 
-  app:
+  rotki:
     image: rotki/rotki:v1.36.0
     restart: on-failure
     volumes:
