@@ -4,7 +4,7 @@ name: "Rotki"
 tagline: "Privacy-focused portfolio tracking and accounting"
 icon: "https://raw.githubusercontent.com/rotki/rotki/develop/assets/rotki_icon.png"
 category: "finance"
-version: "1.36.0"
+version: "1"
 port: 8080
 description: "Rotki is an open-source portfolio tracking, analytics, accounting, and management application that protects your financial data and privacy."
 developer: "Rotki Solutions GmbH"
