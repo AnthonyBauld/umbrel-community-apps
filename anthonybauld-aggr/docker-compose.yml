@@ -2,10 +2,12 @@ version: "3.7"
 
 services:
   app_proxy:
+    image: getumbrel/app-proxy:v1.0.0
+    restart: on-failure
     environment:
       APP_HOST: anthonybauld-aggr_web_1
       APP_PORT: 80
 
   web:
-    image: tucsky/aggr:latest
+    image: tucsky/aggr-server:latest
     restart: on-failure
