@@ -7,14 +7,20 @@ category: "finance"
 version: "1.0.0"
 port: 8085
 torProxyPort: 8085
-description: >-
-  Aggr is a real-time cryptocurrency trade aggregator and charting platform. It aggregates tick-by-tick trades, orderbook depth, and liquidations across major exchanges including Binance, Bybit, Coinbase, and BitMEX into a unified interface.
+description: |
+  Aggr is a real-time cryptocurrency trade aggregator and charting platform that aggregates tick-by-tick trades, orderbook depth, and liquidations across major exchanges including Binance, Bybit, Coinbase, and BitMEX into a unified interface.
 
-  Core capabilities:
-  * Consolidated Market Data: Monitor live trade flow and liquidations across multiple centralized exchanges.
-  * Advanced Visualizations: Track cumulative volume delta (CVD), open interest, and custom volume profiles.
-  * Configurable Alerts: Set audio and visual thresholds for large block trades and liquidation events.
-  * Modular Workspace: Build custom layouts, chart panels, and indicator combinations.
+  Use Aggr to monitor live trade flows, track cumulative volume delta, and set custom audio and visual thresholds for block trades and liquidation events.
+
+  ## What It Does
+
+    - **Consolidated market data** - Monitor live trade flow and liquidations across multiple centralized exchanges.
+
+    - **Advanced visualizations** - Track cumulative volume delta (CVD), open interest, and custom volume profiles.
+
+    - **Configurable alerts** - Set audio and visual thresholds for large block trades and liquidation events.
+
+    - **Modular workspace** - Build custom layouts, chart panels, and indicator combinations.
 developer: "Tucsky"
 website: "https://aggr.trade"
 repo: "https://github.com/Tucsky/aggr"
