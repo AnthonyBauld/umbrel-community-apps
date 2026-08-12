@@ -2,12 +2,10 @@ version: "3.7"
 
 services:
   app_proxy:
-    image: getumbrel/app-proxy:v1.0.0
+    image: getumbrel/app-proxy:v1.3.0
     restart: on-failure
-    ports:
-      - "8080:80"
     environment:
-      APP_HOST: web
+      APP_HOST: anthonybauld-aggr_web_1
       APP_PORT: 80
 
   web:
