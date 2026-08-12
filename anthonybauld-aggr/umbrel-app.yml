@@ -26,7 +26,7 @@ website: "https://aggr.trade"
 repo: "https://github.com/Tucsky/aggr"
 support: "https://github.com/Tucsky/aggr/issues"
 gallery:
-  - "1.png"
+  - "https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/1.png"
 path: ""
 defaultPassword: ""
 deterministicPassword: false
