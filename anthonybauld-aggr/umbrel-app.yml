@@ -8,12 +8,6 @@ version: "1.0.0"
 port: 8080
 description: >-
   aggr is a web-based, real-time cryptocurrency orderbook and trade aggregator. It visualizes trades, liquidations, and orderbook depth across multiple exchanges (Binance, Bybit, Coinbase, BitMEX, etc.) in a single customizable workspace.
-
-  Key Features:
-  • Multi-Exchange Data: Combine trades, orderbooks, and liquidations from major crypto exchanges simultaneously.
-  • Custom Indicators: Live cumulative volume delta (CVD), open interest, and volume charts.
-  • Audio Cues: Customizable sound alerts for large trades, liquidations, and volume spikes.
-  • Highly Customizable: Create personalized layouts, workspace themes, and chart panels.
 developer: "Tucsky"
 website: "https://aggr.trade"
 repo: "https://github.com/Tucsky/aggr"
