@@ -7,10 +7,12 @@ category: "finance"
 version: "1.0.0"
 port: 8085
 torProxyPort: 8085
-description: |
+description: >-
   Aggr is a real-time cryptocurrency trade aggregator and charting platform that aggregates tick-by-tick trades, orderbook depth, and liquidations across major exchanges including Binance, Bybit, Coinbase, and BitMEX into a unified interface.
 
+
   Use Aggr to monitor live trade flows, track cumulative volume delta, and set custom audio and visual thresholds for block trades and liquidation events.
+
 
   ## What It Does
 
