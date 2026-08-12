@@ -1,19 +1,26 @@
 manifestVersion: 1
 id: "anthonybauld-aggr"
-name: "aggr"
-tagline: "Real-time crypto market orderbook and trade aggregator"
-icon: "https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/aggr_logo.png"
+name: "Aggr"
+tagline: "Real-time crypto trade, liquidation, and orderbook aggregator"
+icon: "https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/Aggr_Logo.png"
 category: "finance"
 version: "1.0.0"
 port: 8085
 torProxyPort: 8085
 description: >-
-  aggr is a web-based, real-time cryptocurrency orderbook and trade aggregator. It visualizes trades, liquidations, and orderbook depth across multiple exchanges (Binance, Bybit, Coinbase, BitMEX, etc.) in a single customizable workspace.
+  Aggr is a real-time cryptocurrency trade aggregator and charting platform. It aggregates tick-by-tick trades, orderbook depth, and liquidations across major exchanges including Binance, Bybit, Coinbase, and BitMEX into a unified interface.
+
+  Core capabilities:
+  * Consolidated Market Data: Monitor live trade flow and liquidations across multiple centralized exchanges.
+  * Advanced Visualizations: Track cumulative volume delta (CVD), open interest, and custom volume profiles.
+  * Configurable Alerts: Set audio and visual thresholds for large block trades and liquidation events.
+  * Modular Workspace: Build custom layouts, chart panels, and indicator combinations.
 developer: "Tucsky"
 website: "https://aggr.trade"
 repo: "https://github.com/Tucsky/aggr"
 support: "https://github.com/Tucsky/aggr/issues"
-gallery: []
+gallery:
+  - "https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/Aggr_Gallery_1.png"
 path: ""
 defaultPassword: ""
 deterministicPassword: false
