@@ -2,7 +2,7 @@ manifestVersion: 1
 id: "anthonybauld-aggr"
 name: "aggr"
 tagline: "Real-time crypto market orderbook and trade aggregator"
-icon: "https://raw.githubusercontent.com/Tucsky/aggr/master/client/public/favicon.ico"
+icon: "https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/aggr_logo.png"
 category: "finance"
 version: "1.0.0"
 port: 8085
