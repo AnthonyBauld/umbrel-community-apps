@@ -4,7 +4,7 @@ name: "Aggr"
 tagline: "Real-time crypto trade, liquidation, and orderbook aggregator"
 icon: "https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/Aggr_Logo.png"
 category: "finance"
-version: "1.0.0"
+version: "3.8.3"
 port: 8085
 torProxyPort: 8085
 description: >-
@@ -32,5 +32,5 @@ gallery:
 path: ""
 defaultPassword: ""
 deterministicPassword: false
-submitter: "AnthonyBauld"
+submitter: "Anthony Bauld"
 submissionDate: "2026-08-11"
