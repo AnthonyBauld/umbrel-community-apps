@@ -33,6 +33,7 @@ gallery:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-deterministicPassword: false
+releaseNotes: >-
+  Initial release of Aggr on umbrelOS. Includes live tick-by-tick trade flow, orderbook depth, and liquidations across major exchanges.
 submitter: Anthony Bauld
-submissionDate: "2026-08-11"
+submission: https://github.com/AnthonyBauld/umbrel-community-apps
