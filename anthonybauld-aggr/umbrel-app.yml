@@ -6,6 +6,7 @@ icon: "https://raw.githubusercontent.com/Tucsky/aggr/master/client/public/favico
 category: "finance"
 version: "1.0.0"
 port: 8085
+torProxyPort: 8085
 description: >-
   aggr is a web-based, real-time cryptocurrency orderbook and trade aggregator. It visualizes trades, liquidations, and orderbook depth across multiple exchanges (Binance, Bybit, Coinbase, BitMEX, etc.) in a single customizable workspace.
 developer: "Tucsky"
