@@ -9,7 +9,7 @@ services:
       APP_PORT: 80
 
   web:
-    image: tucsky/aggr:latest
+    image: ghcr.io/tucsky/aggr:latest
     restart: on-failure
     environment:
       - PORT=80
