@@ -4,22 +4,19 @@ category: finance
 name: Aggr
 version: "3.8.3"
 tagline: Real-time crypto trade, liquidation, and orderbook aggregator
-description: >-
-  Aggr is a real-time cryptocurrency trade aggregator and charting platform that aggregates tick-by-tick trades, orderbook depth, and liquidations across major exchanges including Binance, Bybit, Coinbase, and BitMEX into a unified interface.
+description: |-
+  Aggr is a real-time cryptocurrency trade aggregator and charting platform. It
+  combines trades, order book depth, and liquidations from exchanges including
+  Binance, Bybit, Coinbase, and BitMEX.
 
+  Use Aggr to monitor live trade flows, cumulative volume delta, open interest,
+  volume profiles, and large trade or liquidation alerts.
 
-  Use Aggr to monitor live trade flows, track cumulative volume delta, and set custom audio and visual thresholds for block trades and liquidation events.
-
-
-  ## What It Does
-
-    - **Consolidated market data** - Monitor live trade flow and liquidations across multiple centralized exchanges.
-
-    - **Advanced visualizations** - Track cumulative volume delta (CVD), open interest, and custom volume profiles.
-
-    - **Configurable alerts** - Set audio and visual thresholds for large block trades and liquidation events.
-
-    - **Modular workspace** - Build custom layouts, chart panels, and indicator combinations.
+  What it does:
+  • Consolidated market data from multiple exchanges
+  • CVD, open interest, and custom volume profiles
+  • Audio and visual alerts for large trades and liquidations
+  • Custom layouts, chart panels, and indicators
 developer: Tucsky
 website: https://aggr.trade
 dependencies: []
@@ -27,9 +24,9 @@ repo: https://github.com/Tucsky/aggr
 support: https://github.com/Tucsky/aggr/issues
 port: 8085
 torProxyPort: 8085
-icon: https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/Aggr_Logo.png
+icon: https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/data/Aggr_Logo.png
 gallery:
-  - https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/1.png
+  - https://raw.githubusercontent.com/AnthonyBauld/umbrel-community-apps/main/anthonybauld-aggr/data/1.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
